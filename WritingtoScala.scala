@@ -9,7 +9,7 @@ val props = new java.util.Properties
 props.setProperty("driver", "oracle.jdbc.driver.OracleDriver")
 props.setProperty("user", "user_name")
 props.setProperty("password", "some_password")
-val url: String = "jdbc:oracle:thin:@//hostname:port_number/SID"val table = "som_t"
+val url: String = "jdbc:oracle:thin:@//hostname:port_number/SID"
 
 //destination database table
 val table = "some_table_name"
